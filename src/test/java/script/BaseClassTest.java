@@ -30,7 +30,7 @@ public class BaseClassTest
 		// 		}
 		// 	driver.get(URL);
 		driver = new FirefoxDriver();
-		driver.get("https://www.facebook.com")
-		
+		driver.get("https://www.facebook.com");
+		System.out.println("*****Firefox Launched***");		
 	}		
 }
