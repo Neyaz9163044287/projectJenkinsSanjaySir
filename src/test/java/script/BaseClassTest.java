@@ -13,21 +13,24 @@ public class BaseClassTest
 	@Test
 	public void Test()
 	{
-		String BROWSER = System.getProperty("browser");
-		String URL = System.getProperty("url");
+		// String BROWSER = System.getProperty("browser");
+		// String URL = System.getProperty("url");
 		
-				if(BROWSER.equalsIgnoreCase("Chrome"))
-				{
-					driver = new ChromeDriver();
-				}
-				else if(BROWSER.equalsIgnoreCase("firefox"))
-				{
-					driver = new FirefoxDriver();
-				}
-				else if(BROWSER.equalsIgnoreCase("edge"))
-				{
-					driver = new EdgeDriver();
-				}
-			driver.get(URL);
+		// 		if(BROWSER.equalsIgnoreCase("Chrome"))
+		// 		{
+		// 			driver = new ChromeDriver();
+		// 		}
+		// 		else if(BROWSER.equalsIgnoreCase("firefox"))
+		// 		{
+		// 			driver = new FirefoxDriver();
+		// 		}
+		// 		else if(BROWSER.equalsIgnoreCase("edge"))
+		// 		{
+		// 			driver = new EdgeDriver();
+		// 		}
+		// 	driver.get(URL);
+		driver = new FirefoxDriver();
+		driver.get("https://www.facebook.com")
+		
 	}		
 }
