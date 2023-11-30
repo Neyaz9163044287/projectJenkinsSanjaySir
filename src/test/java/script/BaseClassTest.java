@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class BaseClassTest 
 {
-	public WebDriver driver;
+	//public WebDriver driver;
 	
 	@Test
 	public void Test()
@@ -29,7 +29,7 @@ public class BaseClassTest
 		// 			driver = new EdgeDriver();
 		// 		}
 		// 	driver.get(URL);
-		driver = new FirefoxDriver();
+		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com");
 		System.out.println("*****Firefox Launched***");		
 	}		
